@@ -1,10 +1,15 @@
 # Infrastructure as Code with Terraform on Azure – Lab Guide
 
 ## Lab1 – Terraform Environment
+In this lab, you will learn how to prepare your Terraform environment. At the end of this lab, you will have a better understanding of how to create a new environemnt for Terraform development.
 
-**Purpose** – Prepare & Initiate the Terraform environment
 
-**Steps:**
+## Lab Overview
+1. Download, install and configure the required tools
+2. Create a Terraform configuration for Azure
+3. Initiate your Terraform configuration
+
+## Instructions
 
 1. Download and install the following software:
    - [VSCode](https://code.visualstudio.com/download)
@@ -51,9 +56,28 @@
      
 7. Back to the files view – create a new file and call it “providers.tf”
 
-8. Configure the AzureRM provider and the “terraform” block with the required providers block (you can use the slide deck for reference or [this link](<link>))
+8. Create Terraform providers configuration:
+   - Create a new file called `providers.tf`
+   - Add the following content to `providers.tf`:
 
-9. After configuring your providers, run `terraform init`
+      ```hcl
+      terraform {
+        required_providers {
+          azurerm = {
+            source  = "hashicorp/azurerm"
+            version = "~> 3"
+          }
+        }
+      }
+
+      provider "azurerm" {
+        features {}
+      }
+      ```
+
+      > **Tip:** Configure auto-saving in Visual Studio Code by going to File > Auto Save. This will automatically save your changes and prevent frustration when you forget to save your changes before running Terraform commands.
+
+9. After configuring your providers, run ```terraform init```
 
 10. Check yourself:
     - Did you get a green output?
