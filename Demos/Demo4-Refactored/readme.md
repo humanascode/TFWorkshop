@@ -1,0 +1,2 @@
+## Demo 4 - refactored
+1. This demo is the refactored version of the previous demo. This demo makes use of locals, variables, outputs and data to make the configuration more modular and reusable, hiding secrets and removing hard-coded values
