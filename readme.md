@@ -9,7 +9,7 @@ Each lab guide provides a step-by-step tutorial for a specific topic.
 1. [Lab 1 - Terraform Environment](./Labs/Lab1)
 2. [Lab 2 - Deploy Terraform Code](./Labs/Lab2)
 3. [Lab 3 - Backend State](./Labs/Lab3)
-4. [Lab 4 - (Add Lab 4 title here)](./Labs/Lab4)
+4. [Lab 4 - Loops](./Labs/Lab4)
 
 ## Demos
 
