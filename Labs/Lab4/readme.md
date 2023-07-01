@@ -1,5 +1,5 @@
 # Infrastructure as Code with Terraform on Azure – Lab Guide
-## Lab4 – Backend State
+## Lab4 – Loops and modules
 
 ## Objective
 In this lab, you will refactor the Terraform configuration from Lab 2 to create a module for networking resources and use loops to deploy a dynamic number of virtual machines.
