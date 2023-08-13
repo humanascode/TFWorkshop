@@ -78,6 +78,7 @@ In this lab, you will learn how to prepare your Terraform environment. At the en
       > **Tip:** Configure auto-saving in Visual Studio Code by going to File > Auto Save. This will automatically save your changes and prevent frustration when you forget to save your changes before running Terraform commands.
 
 9. After configuring your providers, run ```terraform init```
+      >**Note**: If you updated the Path variable while VSCode was open, you will need to restart VSCode for the changes to take effect.
 
 10. Check yourself:
     - Did you get a green output?
