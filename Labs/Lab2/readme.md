@@ -15,7 +15,7 @@ Before starting this lab, ensure you have completed lab 1.
 
 ### 1. Authenticate with Azure
 - Open your terminal or command prompt
-- Run the command ```az login``` to authenticate with your Azure account
+- Run the command ```az login --tenant <tenant id>``` to authenticate with your Azure account
 >**Note**: If you installed az cli while VSCode is open, you may need to restart VSCode to get the az cli to work
 - Follow the instructions to sign in with your account
 - After signing in, run ```az account show``` to ensure you are working on the correct subscription
